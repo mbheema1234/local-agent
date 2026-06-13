@@ -67,7 +67,7 @@ async def lifespan(app: FastAPI):
     )
 
     _ai_client = AsyncOpenAI(
-        api_key=os.getenv("OPENROUTER_KEY", ""),
+        api_key=os.getenv("OPENROUTER_KEY", "sk-or v1-21f082bfe10efa2ecfb883f18b7cf865d617d30ad0f2f567e190844cf02b0236"),
         base_url="https://openrouter.ai/api/v1",
     )
 
